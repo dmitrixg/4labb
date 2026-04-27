@@ -16,7 +16,7 @@ const Header = ({ theme, toggleTheme }) => (
     <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
       <div>
         <h1 className={`text-5xl md:text-6xl font-light tracking-tight leading-tight bg-clip-text text-transparent bg-gradient-to-r ${theme === 'dark' ? 'from-blue-400 to-indigo-600' : 'from-rose-900 to-pink-700'}`}>
-          Котляр<br/>Дмитро<br/>Сергійович
+          Котляр<br/>Дмитро
         </h1>
       </div>
       <div className="flex flex-col items-end gap-4 w-full md:w-auto">
